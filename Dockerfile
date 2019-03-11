@@ -13,7 +13,7 @@ COPY . .
 
 RUN dotnet build "CodeChallengeV2/CodeChallengeV2.csproj" -c Release -o /app
 
-RUN dotnet test "CodeChallengeV2.Tests/CodeChallengeV2.Tests.csproj" -c Release -o /app
+#RUN dotnet test "CodeChallengeV2.Tests/CodeChallengeV2.Tests.csproj" -c Release -o /app
 
 
 
